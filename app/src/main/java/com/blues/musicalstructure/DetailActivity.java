@@ -44,7 +44,7 @@ public class DetailActivity extends AppCompatActivity {
         addToPlayListBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(DetailActivity.this,DetailActivity.class);
+                Intent i = new Intent(DetailActivity.this,PlaylistActivity.class);
                 startActivity(i);
             }
         });
