@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="playlist">Playlist</string>
+    <string name="now_playing">Now playing</string>
+    <string name="musics">Music</string>
+    <string name="detail">Detail</string>
+    <string name="add_to_palylist">Add to playlist</string>
+
+    <string name="home">home</string>
+    <string name="title_activity_playlist">PlaylistActivity</string>
+    
+    <!-- content for activity -->
+    <string name="content_artists">
+        "Use ListView to show artists from an array
+        \n\nThen user can select one of them to open the MusicActivity to show what music the artist create"
+    </string>
+    
+    <string name="content_albums">
+        "Use ListView to show albums from an array
+        \n\nThen user can select one of albums to open the MusicActivity to show what music the albums have"
+    </string>
+
+    <string name="content_music">
+        "Use ListView to show music list
+        \n\n Then user can select one of them to play and open DetailActivity ,
+        \n\n To play audio files, I can use Android's MediaPlayer class."
+    </string>
+    
+    <string name="content_detail">
+        "Use TextView to show music's name, album and artist
+        \nUser can tap album to open AlbumsActivity, tap artist to open ArtistsActivity
+        \nTap `add to playlist` button to add this music to playlist
+        \nAnd tap playlist button to open the PlaylistActivity,
+        \nUser can tap play or pause the music in this activity
+        \nTo play audio files, I can use Android's MediaPlayer class."
+    </string>
+
+    <string name="content_playlist">
+        "Use ListView to show music in playlist
+        \n\nTap music to open the DetailActivity."
+    </string>
+    
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blues.musicalstructure.MainActivity">
+
+    <TextView
+        style="@style/large_textView"
+        android:text="@string/home" />
+
+
+    <Button
+        android:id="@+id/artists_btn"
+        style="@style/large_btn"
+        android:background="@color/colorAccent"
+        android:text="@string/artists" />
+
+
+    <Button
+        android:id="@+id/albums_btn"
+        style="@style/large_btn"
+        android:background="@color/colorGreen"
+        android:text="@string/albums" />
+
+    <Button
+        android:id="@+id/playist_btn"
+        style="@style/large_btn"
+        android:background="@color/colorRed"
+        android:text="@string/playlist" />
+
+    <Button
+        android:id="@+id/nowPlaying_btn"
+        style="@style/large_btn"
+        android:background="@color/colorOrange"
+        android:text="@string/now_playing" />
+
+</LinearLayout>
