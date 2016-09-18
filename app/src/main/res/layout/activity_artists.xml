@@ -17,5 +17,4 @@
         android:id="@+id/music_btn"
         style="@style/center_bottom_btn"
         android:text="@string/musics" />
-
 </RelativeLayout>

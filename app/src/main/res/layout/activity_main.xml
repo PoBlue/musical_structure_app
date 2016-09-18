@@ -10,13 +10,11 @@
         style="@style/large_textView"
         android:text="@string/home" />
 
-
     <Button
         android:id="@+id/artists_btn"
         style="@style/large_btn"
         android:background="@color/colorAccent"
         android:text="@string/artists" />
-
 
     <Button
         android:id="@+id/albums_btn"

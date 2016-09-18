@@ -13,7 +13,6 @@ public class AlbumsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_albums);
 
-
         Button musicBtn = (Button) findViewById(R.id.music_btn);
         musicBtn.setOnClickListener(new View.OnClickListener() {
             @Override
